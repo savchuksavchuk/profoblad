@@ -4,3 +4,9 @@ $orange: #f27420;
 $light-orange: #f69955;
 $dark: #231f20;
 $light-dark: #423a3c;
+
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}

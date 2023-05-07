@@ -11,7 +11,7 @@
         <a class="logo header__logo">
           <img src="./images/logo.png" alt="Логотип" class="logo__img">
         </a>
-        <nav class="nav">
+        <nav class="nav header__nav">
           <ul class="nav__list">
             <li class="nav__item">
               <a href="#services" class="nav__link">
@@ -35,11 +35,6 @@
             </li>
           </ul>
         </nav>
-        <a href="#order" class="button button--blue header__callback">
-          <span class="button__title">
-            Викликати майстра
-          </span>
-        </a>
       </div>
       <div class="header__content">
         <div class="container header__container">
@@ -53,8 +48,11 @@
               в м. Івано-Франківськ та області
             </p>
           </div>
+          <a href="#order" class="header__button button button--orange">
+            Заявка на ремонт
+          </a>
           <div class="header__form-wrapper">
-            <form action="/" class="form header__form">
+            <form class="form header__form">
               <h3 class="title__h3 form__title">
                 Заявка на ремонт
               </h3>
@@ -85,7 +83,7 @@
           <h2 class="title title__h2 services__title">
             Наші послуги
           </h2>
-          <div class="services__row">
+          <div class="services__wrapper">
             <article class="service-card">
               <a href="/" class="service-card__photo">
                 <img
@@ -98,7 +96,7 @@
                 Ремонт теплового обладнання
               </h4>
               <p class="service-card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, explicabo.
+                Пароконвектомати, конвекційні печі, подові печі, ротаційні печі, вистійні шафи, електричні плити, індукційні плити, грилі та інше
               </p>
             </article>
             <article class="service-card">
@@ -113,7 +111,7 @@
                 Ремонт холодильного обладнання
               </h4>
               <p class="service-card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, explicabo.
+                Холодильні та морозильні шафи, холодильні та морозильні столи, холодильні та морозильні камери, холодильні та морозильні вітрини, системи централізованого холодопостачання та інше
               </p>
             </article>
             <article class="service-card">
@@ -125,14 +123,12 @@
                 >
               </a>
               <h4 class="service-card__title title__h4">
-                Ремонт електромеханічного обладнання
+                Ремонт електромеханічного обладнання та пакувального обладання
               </h4>
               <p class="service-card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, explicabo.
+                М'ясорубки, тісторозкатувальні машини, тістоміси, міксери, слайсери, вакуумні пакувальники, запайщики пакетів та інше
               </p>
             </article>
-          </div>
-          <div class="services__row">
             <article class="service-card">
               <a href="/" class="service-card__photo">
                 <img
@@ -145,7 +141,7 @@
                 Ремонт посудомийного обладнання
               </h4>
               <p class="service-card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, explicabo.
+                Фронтальні посудомийні машини, купольні посудомийні машини, тунельні посудомийні машини, бокаломийні машини, котломийні машини та інше
               </p>
             </article>
             <article class="service-card">
@@ -160,7 +156,7 @@
                 Підключення та монтаж обладнання
               </h4>
               <p class="service-card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, explicabo.
+                Ми пропонуємо повний спектр послуг з монтажу обладнання - встановлення, підключення до комунікацій, тестування та перевірку роботи обладнання, первинний інструктаж для персоналу.
               </p>
             </article>
             <article class="service-card">
@@ -175,7 +171,7 @@
                 Сервісне обслуговування обладнання
               </h4>
               <p class="service-card__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, explicabo.
+                Профілактичне та планове технічне обслуговування обладнання дозволяє попередити поломки та забезпечити його ефективну роботу згідно заводських параметрів.
               </p>
             </article>
           </div>
@@ -189,8 +185,29 @@
                 Декілька слів про нас
               </h3>
               <p class="about__paragraph">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic molestiae rerum est quas dolores in dolorum ex ducimus consectetur tenetur? Pariatur sed mollitia earum quibusdam, quos quidem saepe? Voluptate possimus iusto tenetur neque repellat fugiat rerum consectetur accusamus accusantium optio, dignissimos, placeat sed molestiae velit ratione reiciendis earum animi dolorum fugit et cum voluptatibus aut id recusandae? Dicta ipsum repellat dolorem incidunt, itaque impedit quas, reiciendis sequi, excepturi temporibus nemo recusandae perspiciatis neque deserunt inventore quae officiis. Libero quibusdam dicta voluptates dolorum alias! Aut, cum excepturi eum eos praesentium sit, quidem ex ea molestias aliquid eius consequuntur atque natus dignissimos.
-              </p>
+                Компанія "Професійне обладнання" вже більше 10-ти років займається обслуговуванням та ремонтом професійного та кухонного обладнання. 
+                <br>
+                <br>
+                Ми маємо великий досвід у роботі зі всіма типами обладнання та велику клієнтську базу.
+                Будучи лідером на ринку, ми розуміємо на скільки важлива безперебійна робота кухні та процесу приготування страв. Саме тому ми працюємо з великою кількістю брендів кухонного обладанання: 
+                <ul class="about__list">
+                  <li>Unox</li>
+                  <li>Rational</li>
+                  <li>Apach</li>
+                  <li>Robot Coupe</li>
+                  <li>Sirman</li>
+                  <li>Brema</li>
+                  <li>Fagor</li>
+                  <li>Kogast</li>
+                  <li>GGF</li>
+                  <li>R.G.V</li>
+                  <li>та багато інших</li>
+                </ul>
+                Наші інженери електротехніки з великим досвідом роботи відновлять ваше обладнання в найкоротші терміни, використовуючи запчастини та матеріали від виробника або
+                ж якісні аналоги.
+                <br>
+                <br>
+                Зверніться до нас, якщо Вам потрібна професійна допомога з кухонним обладнанням у вашому закладі харчування чи торговій точці.              </p>
             </div>
           </div>
           <div class="about__background"></div>
@@ -204,49 +221,56 @@
           Як ми працюємо
         </h2>
         <div class="container work__container">
-          <div class="work__item">
-            <div class="work__circle">
-              1
+          <div class="work__wrapper">
+            <div class="work__item">
+              <div class="work__circle">
+                1
+              </div>
+              <h4 class="title__h4 work__subtitle">
+                Заявка
+              </h4>
+              <p class="work__text">
+                Залиште заявку на ремонт на сайті або ж за номером телефону у зручній для Вас формі.
+              </p>
             </div>
-            <h4 class="title__h4 work__subtitle">
-              Заявка
-            </h4>
-            <p class="work__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, rem?
-            </p>
+            <img src="./images/arrow.svg" class="work__arrow" />
+            <div class="work__item">
+              <div class="work__circle">
+                2
+              </div>
+              <h4 class="title__h4 work__subtitle">
+                Діагностика
+              </h4>
+              <p class="work__text">
+                Виявлення не справності обладнання електромеханіками та заключення по ремонту.
+              </p>
+            </div>
           </div>
-          <div class="work__item">
-            <div class="work__circle">
-              2
+          <div class="work__wrapper">
+            <img src="./images/arrow.svg" class="work__arrow" />
+            <div class="work__item">
+              <div class="work__circle">
+                3
+              </div>
+              <h4 class="title__h4 work__subtitle">
+                Ремонт
+              </h4>
+              <p class="work__text">
+                Погодження вартості ремонту. Безпосередньо самі ремонтні роботи на місці або ж у нашій майстерні.
+              </p>
             </div>
-            <h4 class="title__h4 work__subtitle">
-              Діагностика
-            </h4>
-            <p class="work__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, rem?
-            </p>
-          </div>
-          <div class="work__item">
-            <div class="work__circle">
-              3
+            <img src="./images/arrow.svg" class="work__arrow" />
+            <div class="work__item">
+              <div class="work__circle">
+                4
+              </div>
+              <h4 class="title__h4 work__subtitle">
+                Здача робіт
+              </h4>
+              <p class="work__text">
+                Перевірка справності після ремонту та написання технічного акту виконаних робіт з описом проблеми та виконаної роботи
+              </p>
             </div>
-            <h4 class="title__h4 work__subtitle">
-              Ремонт
-            </h4>
-            <p class="work__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, rem?
-            </p>
-          </div>
-          <div class="work__item">
-            <div class="work__circle">
-              4
-            </div>
-            <h4 class="title__h4 work__subtitle">
-              Здача робіт
-            </h4>
-            <p class="work__text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, rem?
-            </p>
           </div>
         </div>
       </section>
@@ -259,37 +283,20 @@
             </div>
             <img src="./images/image7.jpg" alt="Фото кухні" class="benefits__img">
           </div>
-          <ul class="benefits__list">
-            <li class="benefits__tab benefits__tab--selected">
-                Прозорість
-            </li>
-            <li class="benefits__tab">
-                Оперативність
-            </li>
-            <li class="benefits__tab">
-                Професійність
-            </li>
-          </ul>
           <div class="benefits__content">
-            <div class="benefits__card benefits__card--selected">
+            <div class="benefits__card benefits__card--orange">
               <p>
-                1
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur porro illum minima exercitationem, quam tempora? Sed doloribus molestias illum saepe ex expedita possimus totam nobis aspernatur quisquam? Ipsa fuga voluptas laborum at dolor. Sit aliquid consequatur, enim accusantium voluptas sequi dolorum? Deleniti perspiciatis ad recusandae harum tempora? Sequi, alias distinctio.
+                Не нав'язуємо додаткові послуги, а виконуємо тільки ті роботи, які реально потрібні для відновлення роботи обладнання
               </p>
             </div>
-            <div class="benefits__card">
+            <div class="benefits__card benefits__card--blue">
               <p>
-                2
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur porro illum minima exercitationem, quam tempora? Sed doloribus molestias illum saepe ex expedita possimus totam nobis aspernatur quisquam? Ipsa fuga voluptas laborum at dolor. Sit aliquid consequatur, enim accusantium voluptas sequi dolorum? Deleniti perspiciatis ad recusandae harum tempora? Sequi, alias distinctio.
+                Швидке реагуємо на виклик та прикладаємо максимум зусиль, щоб виконати ремонт у найкоротші терміни
               </p>
             </div>
-            <div class="benefits__card">
+            <div class="benefits__card benefits__card--gray">
               <p>
-                3
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur porro illum minima exercitationem, quam tempora? Sed doloribus molestias illum saepe ex expedita possimus totam nobis aspernatur quisquam? Ipsa fuga voluptas laborum at dolor. Sit aliquid consequatur, enim accusantium voluptas sequi dolorum? Deleniti perspiciatis ad recusandae harum tempora? Sequi, alias distinctio.
+                Завдяки багаторічному досвіду, діагностуємо та ремонтуємо обладання будь-якого типу та бренду
               </p>
             </div>
           </div>
@@ -302,7 +309,7 @@
         <div class="container achievements__container">
           <div class="achievement">
             <p class="achievement__number title__h3">
-              >1500
+              >2500
             </p>
             <p class="achievement__text">
               одиниць обладнання відремонтовано
@@ -337,7 +344,7 @@
             </h3>
           </div>
           <div class="order__form-wrapper">
-            <form action="/" class="form order__form">
+            <form class="form order__form" id="orderForm">
               <label for="name" class="form__label">
                 Ваше ім'я*
               </label>
@@ -391,7 +398,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10488.415575922321!2d24.721462!3d48.9134128!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c15d5d083acb%3A0x25f32f0509ad1ff9!2sTov%20%22Profesiyne%20Obladnannya%22!5e0!3m2!1sru!2sua!4v1678656121513!5m2!1sru!2sua" width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </footer>
     </main>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="/main.ts"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
